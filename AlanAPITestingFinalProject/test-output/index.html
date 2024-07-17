@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">55 methods,   55 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="approveLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)">approveLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="approveLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)">approveLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="approveLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)">approveLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="approveLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)">approveLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="approveLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)">approveLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="deleteLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)">deleteLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="deleteLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)">deleteLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="deleteLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)">deleteLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="deleteLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)">deleteLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="deleteLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)">deleteLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getCreditScore(alice@example.com, alice123, org.testng.TestRunner@18f20260)">getCreditScore(alice@example.com, alice123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getCreditScore(jane@example.com, jane123, org.testng.TestRunner@18f20260)">getCreditScore(jane@example.com, jane123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getCreditScore(eva@example.com, eva123, org.testng.TestRunner@18f20260)">getCreditScore(eva@example.com, eva123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getCreditScore(john@example.com, john123, org.testng.TestRunner@18f20260)">getCreditScore(john@example.com, john123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getCreditScore(bob@example.com, bob123, org.testng.TestRunner@18f20260)">getCreditScore(bob@example.com, bob123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getCustomerInfo(john@example.com, john123, org.testng.TestRunner@18f20260)">getCustomerInfo(john@example.com, john123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getCustomerInfo(bob@example.com, bob123, org.testng.TestRunner@18f20260)">getCustomerInfo(bob@example.com, bob123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getCustomerInfo(jane@example.com, jane123, org.testng.TestRunner@18f20260)">getCustomerInfo(jane@example.com, jane123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getCustomerInfo(eva@example.com, eva123, org.testng.TestRunner@18f20260)">getCustomerInfo(eva@example.com, eva123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getCustomerInfo(alice@example.com, alice123, org.testng.TestRunner@18f20260)">getCustomerInfo(alice@example.com, alice123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getLoanEligibility(jane@example.com, jane123, org.testng.TestRunner@18f20260)">getLoanEligibility(jane@example.com, jane123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getLoanEligibility(john@example.com, john123, org.testng.TestRunner@18f20260)">getLoanEligibility(john@example.com, john123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getLoanEligibility(bob@example.com, bob123, org.testng.TestRunner@18f20260)">getLoanEligibility(bob@example.com, bob123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getLoanEligibility(alice@example.com, alice123, org.testng.TestRunner@18f20260)">getLoanEligibility(alice@example.com, alice123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getLoanEligibility(eva@example.com, eva123, org.testng.TestRunner@18f20260)">getLoanEligibility(eva@example.com, eva123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getRiskAssessmentReport(jane@example.com, jane123, org.testng.TestRunner@18f20260)">getRiskAssessmentReport(jane@example.com, jane123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getRiskAssessmentReport(alice@example.com, alice123, org.testng.TestRunner@18f20260)">getRiskAssessmentReport(alice@example.com, alice123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getRiskAssessmentReport(eva@example.com, eva123, org.testng.TestRunner@18f20260)">getRiskAssessmentReport(eva@example.com, eva123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getRiskAssessmentReport(bob@example.com, bob123, org.testng.TestRunner@18f20260)">getRiskAssessmentReport(bob@example.com, bob123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="getRiskAssessmentReport(john@example.com, john123, org.testng.TestRunner@18f20260)">getRiskAssessmentReport(john@example.com, john123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="postReqUserAuth(jane@example.com, jane123, org.testng.TestRunner@18f20260)">postReqUserAuth(jane@example.com, jane123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="postReqUserAuth(alice@example.com, alice123, org.testng.TestRunner@18f20260)">postReqUserAuth(alice@example.com, alice123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="postReqUserAuth(bob@example.com, bob123, org.testng.TestRunner@18f20260)">postReqUserAuth(bob@example.com, bob123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="postReqUserAuth(john@example.com, john123, org.testng.TestRunner@18f20260)">postReqUserAuth(john@example.com, john123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="postReqUserAuth(eva@example.com, eva123, org.testng.TestRunner@18f20260)">postReqUserAuth(eva@example.com, eva123, org.testng.TestRunner@18f20260)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="pullLoanApplicationStatus(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)">pullLoanApplicationStatus(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="pullLoanApplicationStatus(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)">pullLoanApplicationStatus(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="pullLoanApplicationStatus(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)">pullLoanApplicationStatus(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="pullLoanApplicationStatus(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)">pullLoanApplicationStatus(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="pullLoanApplicationStatus(john@example.com, john123, org.testng.TestRunner@3a7c678b)">pullLoanApplicationStatus(john@example.com, john123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="rejectLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3b78c683)">rejectLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3b78c683)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="rejectLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3b78c683)">rejectLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3b78c683)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="rejectLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3b78c683)">rejectLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3b78c683)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="rejectLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3b78c683)">rejectLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3b78c683)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="rejectLoanApplication(john@example.com, john123, org.testng.TestRunner@3b78c683)">rejectLoanApplication(john@example.com, john123, org.testng.TestRunner@3b78c683)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="submitLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)">submitLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="submitLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)">submitLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="submitLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)">submitLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="submitLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)">submitLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="submitLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)">submitLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="submitLoanApplication(john@example.com, john123, org.testng.TestRunner@3b78c683)">submitLoanApplication(john@example.com, john123, org.testng.TestRunner@3b78c683)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="submitLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3b78c683)">submitLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3b78c683)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="submitLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3b78c683)">submitLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3b78c683)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="submitLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3b78c683)">submitLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3b78c683)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.finalproject.loanAPITests" class="method navigator-link" hash-for-method="submitLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3b78c683)">submitLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3b78c683)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.finalproject.loanAPITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="approveLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- approveLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">approveLoanApplication</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="approveLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- approveLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">approveLoanApplication</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="approveLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- approveLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">approveLoanApplication</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="approveLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- approveLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">approveLoanApplication</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="approveLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- approveLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">approveLoanApplication</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- deleteLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">deleteLoanApplication</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- deleteLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">deleteLoanApplication</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- deleteLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">deleteLoanApplication</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- deleteLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">deleteLoanApplication</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- deleteLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">deleteLoanApplication</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCreditScore(alice@example.com, alice123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getCreditScore(alice@example.com, alice123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getCreditScore</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCreditScore(jane@example.com, jane123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getCreditScore(jane@example.com, jane123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getCreditScore</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCreditScore(eva@example.com, eva123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getCreditScore(eva@example.com, eva123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getCreditScore</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCreditScore(john@example.com, john123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getCreditScore(john@example.com, john123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getCreditScore</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCreditScore(bob@example.com, bob123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getCreditScore(bob@example.com, bob123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getCreditScore</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerInfo(john@example.com, john123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getCustomerInfo(john@example.com, john123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getCustomerInfo</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerInfo(bob@example.com, bob123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getCustomerInfo(bob@example.com, bob123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getCustomerInfo</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerInfo(jane@example.com, jane123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getCustomerInfo(jane@example.com, jane123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getCustomerInfo</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerInfo(eva@example.com, eva123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getCustomerInfo(eva@example.com, eva123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getCustomerInfo</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerInfo(alice@example.com, alice123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getCustomerInfo(alice@example.com, alice123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getCustomerInfo</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLoanEligibility(jane@example.com, jane123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getLoanEligibility(jane@example.com, jane123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getLoanEligibility</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLoanEligibility(john@example.com, john123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getLoanEligibility(john@example.com, john123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getLoanEligibility</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLoanEligibility(bob@example.com, bob123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getLoanEligibility(bob@example.com, bob123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getLoanEligibility</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLoanEligibility(alice@example.com, alice123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getLoanEligibility(alice@example.com, alice123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getLoanEligibility</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLoanEligibility(eva@example.com, eva123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getLoanEligibility(eva@example.com, eva123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getLoanEligibility</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRiskAssessmentReport(jane@example.com, jane123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getRiskAssessmentReport(jane@example.com, jane123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getRiskAssessmentReport</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRiskAssessmentReport(alice@example.com, alice123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getRiskAssessmentReport(alice@example.com, alice123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getRiskAssessmentReport</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRiskAssessmentReport(eva@example.com, eva123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getRiskAssessmentReport(eva@example.com, eva123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getRiskAssessmentReport</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRiskAssessmentReport(bob@example.com, bob123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getRiskAssessmentReport(bob@example.com, bob123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getRiskAssessmentReport</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRiskAssessmentReport(john@example.com, john123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- getRiskAssessmentReport(john@example.com, john123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">getRiskAssessmentReport</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postReqUserAuth(jane@example.com, jane123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- postReqUserAuth(jane@example.com, jane123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">postReqUserAuth</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postReqUserAuth(alice@example.com, alice123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- postReqUserAuth(alice@example.com, alice123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">postReqUserAuth</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postReqUserAuth(bob@example.com, bob123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- postReqUserAuth(bob@example.com, bob123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">postReqUserAuth</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postReqUserAuth(john@example.com, john123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- postReqUserAuth(john@example.com, john123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">postReqUserAuth</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postReqUserAuth(eva@example.com, eva123, org.testng.TestRunner@18f20260)">
+                  </a> <!-- postReqUserAuth(eva@example.com, eva123, org.testng.TestRunner@18f20260) -->
+                  <span class="method-name">postReqUserAuth</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@18f20260)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pullLoanApplicationStatus(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- pullLoanApplicationStatus(jane@example.com, jane123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">pullLoanApplicationStatus</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pullLoanApplicationStatus(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- pullLoanApplicationStatus(eva@example.com, eva123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">pullLoanApplicationStatus</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pullLoanApplicationStatus(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- pullLoanApplicationStatus(alice@example.com, alice123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">pullLoanApplicationStatus</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pullLoanApplicationStatus(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- pullLoanApplicationStatus(bob@example.com, bob123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">pullLoanApplicationStatus</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pullLoanApplicationStatus(john@example.com, john123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- pullLoanApplicationStatus(john@example.com, john123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">pullLoanApplicationStatus</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rejectLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3b78c683)">
+                  </a> <!-- rejectLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3b78c683) -->
+                  <span class="method-name">rejectLoanApplication</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@3b78c683)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rejectLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3b78c683)">
+                  </a> <!-- rejectLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3b78c683) -->
+                  <span class="method-name">rejectLoanApplication</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@3b78c683)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rejectLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3b78c683)">
+                  </a> <!-- rejectLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3b78c683) -->
+                  <span class="method-name">rejectLoanApplication</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@3b78c683)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rejectLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3b78c683)">
+                  </a> <!-- rejectLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3b78c683) -->
+                  <span class="method-name">rejectLoanApplication</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@3b78c683)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rejectLoanApplication(john@example.com, john123, org.testng.TestRunner@3b78c683)">
+                  </a> <!-- rejectLoanApplication(john@example.com, john123, org.testng.TestRunner@3b78c683) -->
+                  <span class="method-name">rejectLoanApplication</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@3b78c683)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- submitLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">submitLoanApplication</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- submitLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">submitLoanApplication</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- submitLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">submitLoanApplication</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- submitLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">submitLoanApplication</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)">
+                  </a> <!-- submitLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b) -->
+                  <span class="method-name">submitLoanApplication</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitLoanApplication(john@example.com, john123, org.testng.TestRunner@3b78c683)">
+                  </a> <!-- submitLoanApplication(john@example.com, john123, org.testng.TestRunner@3b78c683) -->
+                  <span class="method-name">submitLoanApplication</span>
+                  <span class="parameters">(john@example.com, john123, org.testng.TestRunner@3b78c683)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3b78c683)">
+                  </a> <!-- submitLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3b78c683) -->
+                  <span class="method-name">submitLoanApplication</span>
+                  <span class="parameters">(alice@example.com, alice123, org.testng.TestRunner@3b78c683)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3b78c683)">
+                  </a> <!-- submitLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3b78c683) -->
+                  <span class="method-name">submitLoanApplication</span>
+                  <span class="parameters">(jane@example.com, jane123, org.testng.TestRunner@3b78c683)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3b78c683)">
+                  </a> <!-- submitLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3b78c683) -->
+                  <span class="method-name">submitLoanApplication</span>
+                  <span class="parameters">(bob@example.com, bob123, org.testng.TestRunner@3b78c683)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3b78c683)">
+                  </a> <!-- submitLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3b78c683) -->
+                  <span class="method-name">submitLoanApplication</span>
+                  <span class="parameters">(eva@example.com, eva123, org.testng.TestRunner@3b78c683)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/atishk/eclipse-workspace/unique_system_skills_core_java/AlanAPITestingFinalProject/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Pre-submission&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.finalproject.loanAPITests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;postReqUserAuth&quot;/&gt;
+          &lt;include name=&quot;getCustomerInfo&quot;/&gt;
+          &lt;include name=&quot;getCreditScore&quot;/&gt;
+          &lt;include name=&quot;getLoanEligibility&quot;/&gt;
+          &lt;include name=&quot;getRiskAssessmentReport&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.finalproject.loanAPITests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Pre-submission --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Submission, Approval, Status Check, and Deletion&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.finalproject.loanAPITests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;submitLoanApplication&quot;/&gt;
+          &lt;include name=&quot;approveLoanApplication&quot;/&gt;
+          &lt;include name=&quot;pullLoanApplicationStatus&quot;/&gt;
+          &lt;include name=&quot;deleteLoanApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.finalproject.loanAPITests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Submission, Approval, Status Check, and Deletion --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Submission and Rejection&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.finalproject.loanAPITests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;submitLoanApplication&quot;/&gt;
+          &lt;include name=&quot;rejectLoanApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.finalproject.loanAPITests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Submission and Rejection --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Pre-submission (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Submission, Approval, Status Check, and Deletion (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Submission and Rejection (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(55);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'postReqUserAuth')
+data.setCell(0, 2, 'com.finalproject.loanAPITests')
+data.setCell(0, 3, 589);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getRiskAssessmentReport')
+data.setCell(1, 2, 'com.finalproject.loanAPITests')
+data.setCell(1, 3, 32);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getCreditScore')
+data.setCell(2, 2, 'com.finalproject.loanAPITests')
+data.setCell(2, 3, 26);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getCreditScore')
+data.setCell(3, 2, 'com.finalproject.loanAPITests')
+data.setCell(3, 3, 25);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'postReqUserAuth')
+data.setCell(4, 2, 'com.finalproject.loanAPITests')
+data.setCell(4, 3, 23);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getCreditScore')
+data.setCell(5, 2, 'com.finalproject.loanAPITests')
+data.setCell(5, 3, 22);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getCustomerInfo')
+data.setCell(6, 2, 'com.finalproject.loanAPITests')
+data.setCell(6, 3, 22);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getRiskAssessmentReport')
+data.setCell(7, 2, 'com.finalproject.loanAPITests')
+data.setCell(7, 3, 22);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getRiskAssessmentReport')
+data.setCell(8, 2, 'com.finalproject.loanAPITests')
+data.setCell(8, 3, 21);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getCreditScore')
+data.setCell(9, 2, 'com.finalproject.loanAPITests')
+data.setCell(9, 3, 20);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getCreditScore')
+data.setCell(10, 2, 'com.finalproject.loanAPITests')
+data.setCell(10, 3, 20);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'submitLoanApplication')
+data.setCell(11, 2, 'com.finalproject.loanAPITests')
+data.setCell(11, 3, 20);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'postReqUserAuth')
+data.setCell(12, 2, 'com.finalproject.loanAPITests')
+data.setCell(12, 3, 19);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'postReqUserAuth')
+data.setCell(13, 2, 'com.finalproject.loanAPITests')
+data.setCell(13, 3, 19);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getRiskAssessmentReport')
+data.setCell(14, 2, 'com.finalproject.loanAPITests')
+data.setCell(14, 3, 19);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getRiskAssessmentReport')
+data.setCell(15, 2, 'com.finalproject.loanAPITests')
+data.setCell(15, 3, 19);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'deleteLoanApplication')
+data.setCell(16, 2, 'com.finalproject.loanAPITests')
+data.setCell(16, 3, 18);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getLoanEligibility')
+data.setCell(17, 2, 'com.finalproject.loanAPITests')
+data.setCell(17, 3, 17);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'submitLoanApplication')
+data.setCell(18, 2, 'com.finalproject.loanAPITests')
+data.setCell(18, 3, 16);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getCustomerInfo')
+data.setCell(19, 2, 'com.finalproject.loanAPITests')
+data.setCell(19, 3, 15);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getCustomerInfo')
+data.setCell(20, 2, 'com.finalproject.loanAPITests')
+data.setCell(20, 3, 15);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'postReqUserAuth')
+data.setCell(21, 2, 'com.finalproject.loanAPITests')
+data.setCell(21, 3, 14);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'submitLoanApplication')
+data.setCell(22, 2, 'com.finalproject.loanAPITests')
+data.setCell(22, 3, 14);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'submitLoanApplication')
+data.setCell(23, 2, 'com.finalproject.loanAPITests')
+data.setCell(23, 3, 14);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getLoanEligibility')
+data.setCell(24, 2, 'com.finalproject.loanAPITests')
+data.setCell(24, 3, 13);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'getLoanEligibility')
+data.setCell(25, 2, 'com.finalproject.loanAPITests')
+data.setCell(25, 3, 13);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'getLoanEligibility')
+data.setCell(26, 2, 'com.finalproject.loanAPITests')
+data.setCell(26, 3, 13);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getLoanEligibility')
+data.setCell(27, 2, 'com.finalproject.loanAPITests')
+data.setCell(27, 3, 13);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'submitLoanApplication')
+data.setCell(28, 2, 'com.finalproject.loanAPITests')
+data.setCell(28, 3, 13);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'submitLoanApplication')
+data.setCell(29, 2, 'com.finalproject.loanAPITests')
+data.setCell(29, 3, 13);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'submitLoanApplication')
+data.setCell(30, 2, 'com.finalproject.loanAPITests')
+data.setCell(30, 3, 13);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'getCustomerInfo')
+data.setCell(31, 2, 'com.finalproject.loanAPITests')
+data.setCell(31, 3, 12);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'getCustomerInfo')
+data.setCell(32, 2, 'com.finalproject.loanAPITests')
+data.setCell(32, 3, 12);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'pullLoanApplicationStatus')
+data.setCell(33, 2, 'com.finalproject.loanAPITests')
+data.setCell(33, 3, 12);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'rejectLoanApplication')
+data.setCell(34, 2, 'com.finalproject.loanAPITests')
+data.setCell(34, 3, 12);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'submitLoanApplication')
+data.setCell(35, 2, 'com.finalproject.loanAPITests')
+data.setCell(35, 3, 12);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'rejectLoanApplication')
+data.setCell(36, 2, 'com.finalproject.loanAPITests')
+data.setCell(36, 3, 12);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'submitLoanApplication')
+data.setCell(37, 2, 'com.finalproject.loanAPITests')
+data.setCell(37, 3, 12);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'submitLoanApplication')
+data.setCell(38, 2, 'com.finalproject.loanAPITests')
+data.setCell(38, 3, 12);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'approveLoanApplication')
+data.setCell(39, 2, 'com.finalproject.loanAPITests')
+data.setCell(39, 3, 11);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'pullLoanApplicationStatus')
+data.setCell(40, 2, 'com.finalproject.loanAPITests')
+data.setCell(40, 3, 11);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'pullLoanApplicationStatus')
+data.setCell(41, 2, 'com.finalproject.loanAPITests')
+data.setCell(41, 3, 11);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'approveLoanApplication')
+data.setCell(42, 2, 'com.finalproject.loanAPITests')
+data.setCell(42, 3, 11);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'deleteLoanApplication')
+data.setCell(43, 2, 'com.finalproject.loanAPITests')
+data.setCell(43, 3, 11);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'approveLoanApplication')
+data.setCell(44, 2, 'com.finalproject.loanAPITests')
+data.setCell(44, 3, 11);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'rejectLoanApplication')
+data.setCell(45, 2, 'com.finalproject.loanAPITests')
+data.setCell(45, 3, 11);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'pullLoanApplicationStatus')
+data.setCell(46, 2, 'com.finalproject.loanAPITests')
+data.setCell(46, 3, 10);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'deleteLoanApplication')
+data.setCell(47, 2, 'com.finalproject.loanAPITests')
+data.setCell(47, 3, 10);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'approveLoanApplication')
+data.setCell(48, 2, 'com.finalproject.loanAPITests')
+data.setCell(48, 3, 10);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'rejectLoanApplication')
+data.setCell(49, 2, 'com.finalproject.loanAPITests')
+data.setCell(49, 3, 10);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'rejectLoanApplication')
+data.setCell(50, 2, 'com.finalproject.loanAPITests')
+data.setCell(50, 3, 10);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'approveLoanApplication')
+data.setCell(51, 2, 'com.finalproject.loanAPITests')
+data.setCell(51, 3, 9);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'deleteLoanApplication')
+data.setCell(52, 2, 'com.finalproject.loanAPITests')
+data.setCell(52, 3, 9);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'pullLoanApplicationStatus')
+data.setCell(53, 2, 'com.finalproject.loanAPITests')
+data.setCell(53, 3, 9);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'deleteLoanApplication')
+data.setCell(54, 2, 'com.finalproject.loanAPITests')
+data.setCell(54, 3, 9);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">19 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.finalproject.loanAPITests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">pullLoanApplicationStatus</span>
+                <br/>
+                <span class="ignored-method-name">pullLoanApplicationStatus</span>
+                <br/>
+                <span class="ignored-method-name">submitLoanApplication</span>
+                <br/>
+                <span class="ignored-method-name">rejectLoanApplication</span>
+                <br/>
+                <span class="ignored-method-name">rejectLoanApplication</span>
+                <br/>
+                <span class="ignored-method-name">postReqUserAuth</span>
+                <br/>
+                <span class="ignored-method-name">postReqUserAuth</span>
+                <br/>
+                <span class="ignored-method-name">getCustomerInfo</span>
+                <br/>
+                <span class="ignored-method-name">getCustomerInfo</span>
+                <br/>
+                <span class="ignored-method-name">getCreditScore</span>
+                <br/>
+                <span class="ignored-method-name">getCreditScore</span>
+                <br/>
+                <span class="ignored-method-name">getRiskAssessmentReport</span>
+                <br/>
+                <span class="ignored-method-name">getRiskAssessmentReport</span>
+                <br/>
+                <span class="ignored-method-name">deleteLoanApplication</span>
+                <br/>
+                <span class="ignored-method-name">deleteLoanApplication</span>
+                <br/>
+                <span class="ignored-method-name">approveLoanApplication</span>
+                <br/>
+                <span class="ignored-method-name">approveLoanApplication</span>
+                <br/>
+                <span class="ignored-method-name">getLoanEligibility</span>
+                <br/>
+                <span class="ignored-method-name">getLoanEligibility</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.finalproject.loanAPITests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.postReqUserAuth(java.lang.String,java.lang.String,org.test...)</span>
+                <span class="method-start">169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postReqUserAuth(john@example.com, john123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.postReqUserAuth(java.lang.String,java.lang.String,org.test...)</span>
+                <span class="method-start">761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postReqUserAuth(jane@example.com, jane123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postReqUserAuth(alice@example.com, alice123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.postReqUserAuth(java.lang.String,java.lang.String,org.test...)</span>
+                <span class="method-start">782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.postReqUserAuth(java.lang.String,java.lang.String,org.test...)</span>
+                <span class="method-start">806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postReqUserAuth(bob@example.com, bob123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.postReqUserAuth(java.lang.String,java.lang.String,org.test...)</span>
+                <span class="method-start">825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postReqUserAuth(eva@example.com, eva123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">826 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCustomerInfo(john@example.com, john123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getCustomerInfo(java.lang.String,java.lang.String,org.test...)</span>
+                <span class="method-start">841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getCustomerInfo(java.lang.String,java.lang.String,org.test...)</span>
+                <span class="method-start">863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCustomerInfo(jane@example.com, jane123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getCustomerInfo(java.lang.String,java.lang.String,org.test...)</span>
+                <span class="method-start">878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCustomerInfo(alice@example.com, alice123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getCustomerInfo(java.lang.String,java.lang.String,org.test...)</span>
+                <span class="method-start">894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCustomerInfo(bob@example.com, bob123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getCustomerInfo(java.lang.String,java.lang.String,org.test...)</span>
+                <span class="method-start">907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCustomerInfo(eva@example.com, eva123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getCreditScore(java.lang.String,java.lang.String,org.testn...)</span>
+                <span class="method-start">920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCreditScore(john@example.com, john123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCreditScore(jane@example.com, jane123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getCreditScore(java.lang.String,java.lang.String,org.testn...)</span>
+                <span class="method-start">946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCreditScore(alice@example.com, alice123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getCreditScore(java.lang.String,java.lang.String,org.testn...)</span>
+                <span class="method-start">972 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getCreditScore(java.lang.String,java.lang.String,org.testn...)</span>
+                <span class="method-start">995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCreditScore(bob@example.com, bob123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getCreditScore(java.lang.String,java.lang.String,org.testn...)</span>
+                <span class="method-start">1015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCreditScore(eva@example.com, eva123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getLoanEligibility(java.lang.String,java.lang.String,org.t...)</span>
+                <span class="method-start">1035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getLoanEligibility(john@example.com, john123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getLoanEligibility(java.lang.String,java.lang.String,org.t...)</span>
+                <span class="method-start">1054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getLoanEligibility(jane@example.com, jane123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getLoanEligibility(alice@example.com, alice123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getLoanEligibility(java.lang.String,java.lang.String,org.t...)</span>
+                <span class="method-start">1068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getLoanEligibility(bob@example.com, bob123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getLoanEligibility(java.lang.String,java.lang.String,org.t...)</span>
+                <span class="method-start">1081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getLoanEligibility(eva@example.com, eva123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getLoanEligibility(java.lang.String,java.lang.String,org.t...)</span>
+                <span class="method-start">1094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getRiskAssessmentReport(java.lang.String,java.lang.String,...)</span>
+                <span class="method-start">1107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getRiskAssessmentReport(john@example.com, john123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getRiskAssessmentReport(java.lang.String,java.lang.String,...)</span>
+                <span class="method-start">1140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getRiskAssessmentReport(jane@example.com, jane123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getRiskAssessmentReport(java.lang.String,java.lang.String,...)</span>
+                <span class="method-start">1161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getRiskAssessmentReport(alice@example.com, alice123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1161 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getRiskAssessmentReport(bob@example.com, bob123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getRiskAssessmentReport(java.lang.String,java.lang.String,...)</span>
+                <span class="method-start">1183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getRiskAssessmentReport(eva@example.com, eva123, org.testng.TestRunner@18f20260)</span>
+                <span class="method-start">1205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.getRiskAssessmentReport(java.lang.String,java.lang.String,...)</span>
+                <span class="method-start">1205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">1438 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1460 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1474 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1504 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.approveLoanApplication(java.lang.String,java.lang.String,o...)</span>
+                <span class="method-start">1518 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">approveLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">approveLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.approveLoanApplication(java.lang.String,java.lang.String,o...)</span>
+                <span class="method-start">1530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.approveLoanApplication(java.lang.String,java.lang.String,o...)</span>
+                <span class="method-start">1539 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">approveLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.approveLoanApplication(java.lang.String,java.lang.String,o...)</span>
+                <span class="method-start">1551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">approveLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.approveLoanApplication(java.lang.String,java.lang.String,o...)</span>
+                <span class="method-start">1562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">approveLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.pullLoanApplicationStatus(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">1572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pullLoanApplicationStatus(john@example.com, john123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pullLoanApplicationStatus(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1583 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.pullLoanApplicationStatus(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">1583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.pullLoanApplicationStatus(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">1594 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pullLoanApplicationStatus(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.pullLoanApplicationStatus(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">1605 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pullLoanApplicationStatus(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pullLoanApplicationStatus(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.pullLoanApplicationStatus(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">1616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.deleteLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLoanApplication(john@example.com, john123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.deleteLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.deleteLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.deleteLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3a7c678b)</span>
+                <span class="method-start">1680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.deleteLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">1695 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">submitLoanApplication(john@example.com, john123, org.testng.TestRunner@3b78c683)</span>
+                <span class="method-start">1695 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3b78c683)</span>
+                <span class="method-start">1708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3b78c683)</span>
+                <span class="method-start">1720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3b78c683)</span>
+                <span class="method-start">1734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3b78c683)</span>
+                <span class="method-start">1747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.rejectLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rejectLoanApplication(john@example.com, john123, org.testng.TestRunner@3b78c683)</span>
+                <span class="method-start">1760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.rejectLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rejectLoanApplication(jane@example.com, jane123, org.testng.TestRunner@3b78c683)</span>
+                <span class="method-start">1772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rejectLoanApplication(alice@example.com, alice123, org.testng.TestRunner@3b78c683)</span>
+                <span class="method-start">1785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.rejectLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.rejectLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rejectLoanApplication(bob@example.com, bob123, org.testng.TestRunner@3b78c683)</span>
+                <span class="method-start">1798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.finalproject.loanAPITests.rejectLoanApplication(java.lang.String,java.lang.String,or...)</span>
+                <span class="method-start">1809 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rejectLoanApplication(eva@example.com, eva123, org.testng.TestRunner@3b78c683)</span>
+                <span class="method-start">1809 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

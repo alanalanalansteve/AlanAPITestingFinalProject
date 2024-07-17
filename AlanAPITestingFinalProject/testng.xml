@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="1" name="Pre-submission">
+		<classes>
+			<class name="com.finalproject.loanAPITests">
+				<methods>
+					<include name="postReqUserAuth" />
+					<include name="getCustomerInfo" />
+					<include name="getCreditScore" />
+					<include name="getLoanEligibility" />
+					<include name="getRiskAssessmentReport" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+		<test thread-count="1" name="Submission, Approval, Status Check, and Deletion">
+		<classes>
+			<class name="com.finalproject.loanAPITests">
+				<methods>
+					<include name="submitLoanApplication" />
+					<include name="approveLoanApplication" />
+					<include name="pullLoanApplicationStatus" />
+					<include name="deleteLoanApplication" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+	<test thread-count="1" name="Submission and Rejection">
+		<classes>
+			<class name ="com.finalproject.loanAPITests">
+				<methods>
+					<include name="submitLoanApplication" />
+					<include name="rejectLoanApplication" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!--
+Suite -->

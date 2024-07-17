@@ -1,0 +1,2068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="19" total="74" passed="55" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-16T17:40:45 EDT" name="Suite" finished-at="2024-07-16T17:40:47 EDT" duration-ms="1825">
+    <groups>
+    </groups>
+    <test started-at="2024-07-16T17:40:45 EDT" name="Pre-submission" finished-at="2024-07-16T17:40:46 EDT" duration-ms="1231">
+      <class name="com.finalproject.loanAPITests">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:45 EDT" name="setupClass" finished-at="2024-07-16T17:40:45 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:45 EDT" name="setUp" finished-at="2024-07-16T17:40:45 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.postReqUserAuth(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@39e53bef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postReqUserAuth(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:45 EDT" name="postReqUserAuth" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postReqUserAuth -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.postReqUserAuth(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@14b275bd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postReqUserAuth(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="postReqUserAuth" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postReqUserAuth -->
+        <test-method signature="postReqUserAuth(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="postReqUserAuth" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postReqUserAuth -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.postReqUserAuth(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4ed18798]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.postReqUserAuth(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4b03cbad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postReqUserAuth(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="postReqUserAuth" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postReqUserAuth -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.postReqUserAuth(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5b29ab61]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postReqUserAuth(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="postReqUserAuth" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postReqUserAuth -->
+        <test-method signature="getCustomerInfo(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getCustomerInfo" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerInfo -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getCustomerInfo(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5c313224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getCustomerInfo(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1e1e837d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getCustomerInfo(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getCustomerInfo" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerInfo -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getCustomerInfo(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4b957db0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getCustomerInfo(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getCustomerInfo" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerInfo -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getCustomerInfo(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5d71b500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getCustomerInfo(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getCustomerInfo" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerInfo -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getCustomerInfo(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@8840c98]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getCustomerInfo(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getCustomerInfo" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerInfo -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getCreditScore(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@626b639e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getCreditScore(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getCreditScore" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreditScore -->
+        <test-method signature="getCreditScore(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getCreditScore" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreditScore -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getCreditScore(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@273fa9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getCreditScore(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getCreditScore" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreditScore -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getCreditScore(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@527a8665]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getCreditScore(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7ab2a07e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getCreditScore(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getCreditScore" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreditScore -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getCreditScore(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@437c4b25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getCreditScore(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getCreditScore" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreditScore -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getLoanEligibility(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5ec6fede]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getLoanEligibility(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getLoanEligibility" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoanEligibility -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getLoanEligibility(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@580902cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getLoanEligibility(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getLoanEligibility" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoanEligibility -->
+        <test-method signature="getLoanEligibility(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getLoanEligibility" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoanEligibility -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getLoanEligibility(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3757e8e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getLoanEligibility(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getLoanEligibility" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoanEligibility -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getLoanEligibility(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1653b84e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getLoanEligibility(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getLoanEligibility" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoanEligibility -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getLoanEligibility(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7f8a9454]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getRiskAssessmentReport(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6f85ee02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getRiskAssessmentReport(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getRiskAssessmentReport" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRiskAssessmentReport -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getRiskAssessmentReport(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@679d0be8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getRiskAssessmentReport(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getRiskAssessmentReport" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRiskAssessmentReport -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getRiskAssessmentReport(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6c075e9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getRiskAssessmentReport(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getRiskAssessmentReport" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRiskAssessmentReport -->
+        <test-method signature="getRiskAssessmentReport(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getRiskAssessmentReport" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRiskAssessmentReport -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getRiskAssessmentReport(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@47044f7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getRiskAssessmentReport(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="getRiskAssessmentReport" data-provider="datasource" finished-at="2024-07-16T17:40:46 EDT" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@18f20260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRiskAssessmentReport -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@47987356]" started-at="2024-07-16T17:40:46 EDT" name="setUp" finished-at="2024-07-16T17:40:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.getRiskAssessmentReport(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7b14c61]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.finalproject.loanAPITests -->
+    </test> <!-- Pre-submission -->
+    <test started-at="2024-07-16T17:40:47 EDT" name="Submission, Approval, Status Check, and Deletion" finished-at="2024-07-16T17:40:47 EDT" duration-ms="253">
+      <class name="com.finalproject.loanAPITests">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setupClass" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@8fcc534]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="submitLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitLoanApplication -->
+        <test-method signature="submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="submitLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5e599100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="submitLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3b435211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@361cd35c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="submitLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@58a765ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="submitLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.approveLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4a642e4b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="approveLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="approveLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveLoanApplication -->
+        <test-method signature="approveLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="approveLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.approveLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6b162ecc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.approveLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3b4086c1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="approveLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="approveLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.approveLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@58aa1d72]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="approveLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="approveLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.approveLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@33d7765a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="approveLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="approveLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.pullLoanApplicationStatus(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@69ed5ea2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pullLoanApplicationStatus(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="pullLoanApplicationStatus" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pullLoanApplicationStatus -->
+        <test-method signature="pullLoanApplicationStatus(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="pullLoanApplicationStatus" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pullLoanApplicationStatus -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.pullLoanApplicationStatus(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@56a4abd0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.pullLoanApplicationStatus(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5eed6dfb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pullLoanApplicationStatus(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="pullLoanApplicationStatus" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pullLoanApplicationStatus -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.pullLoanApplicationStatus(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5600a5da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pullLoanApplicationStatus(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="pullLoanApplicationStatus" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pullLoanApplicationStatus -->
+        <test-method signature="pullLoanApplicationStatus(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="pullLoanApplicationStatus" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pullLoanApplicationStatus -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.pullLoanApplicationStatus(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@551be9f6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.deleteLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@269222ae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="deleteLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.deleteLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@13250132]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="deleteLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.deleteLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@40d848f9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="deleteLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.deleteLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4a864d4d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="deleteLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLoanApplication -->
+        <test-method signature="deleteLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="deleteLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a7c678b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@66f57048]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.deleteLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7d3691e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.finalproject.loanAPITests -->
+    </test> <!-- Submission, Approval, Status Check, and Deletion -->
+    <test started-at="2024-07-16T17:40:47 EDT" name="Submission and Rejection" finished-at="2024-07-16T17:40:47 EDT" duration-ms="125">
+      <class name="com.finalproject.loanAPITests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@46a123e4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setupClass" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method signature="submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="submitLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b78c683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@44bc2449]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="submitLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b78c683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitLoanApplication -->
+        <test-method signature="submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="submitLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b78c683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3c28e5b6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7558c24b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="submitLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b78c683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitLoanApplication -->
+        <test-method signature="submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="submitLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b78c683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.submitLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3a296107]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.rejectLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1f129467]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="rejectLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="rejectLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b78c683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rejectLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.rejectLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@646cd766]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="rejectLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="rejectLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jane123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b78c683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rejectLoanApplication -->
+        <test-method signature="rejectLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="rejectLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alice@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b78c683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rejectLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.rejectLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@57151b3a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.rejectLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@26457986]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="rejectLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="rejectLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b78c683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rejectLoanApplication -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="setUp" finished-at="2024-07-16T17:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.finalproject.loanAPITests.rejectLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2dff7085]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="rejectLoanApplication(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.finalproject.loanAPITests@12aba8be]" started-at="2024-07-16T17:40:47 EDT" name="rejectLoanApplication" data-provider="datasource" finished-at="2024-07-16T17:40:47 EDT" depends-on-methods="com.finalproject.loanAPITests.submitLoanApplication" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eva@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eva123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b78c683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rejectLoanApplication -->
+      </class> <!-- com.finalproject.loanAPITests -->
+    </test> <!-- Submission and Rejection -->
+  </suite> <!-- Suite -->
+</testng-results>
